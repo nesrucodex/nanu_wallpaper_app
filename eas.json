@@ -1,0 +1,23 @@
+{
+  "cli": {
+    "version": ">= 10.2.4"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_SECRET": "txUP8-cp_wANLEdKxKphuAqgQJGAnjJzzCPyM4dcykg",
+        "EXPO_PUBLIC_ACCESS_KEY": "EF0dp6xfqBTNdde_8I-lNHyKAKwwg2lx9R9R8HPsrcY"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
